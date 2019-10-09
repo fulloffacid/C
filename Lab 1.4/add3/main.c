@@ -12,7 +12,7 @@ int main()
         scanf("%i",&A[i]);
     }
 
-    for (i = 0; i < n; i++) //поиск первого 0
+    for (i = 0; i < n; i++) 
         if (A[i] ==0){
             i01 = i;
             break;
@@ -29,7 +29,7 @@ int main()
         sum += A[i];
     printf("Sum= %d",sum);
 
-    for (i = n-1; i >= 0; i--) //поиск последнего нуля с конца
+    for (i = n-1; i >= 0; i--) 
          if (A[i] ==0){
             i02 = i;
             break;
